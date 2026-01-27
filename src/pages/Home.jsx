@@ -43,9 +43,14 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
           <Link to="/" className="flex items-center gap-2">
-            <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-sm ring-1 ring-blue-200/50">
-              R
-            </div>
+            <div className="grid h-9 w-9 place-items-center rounded-xl bg-white shadow-sm ring-1 ring-slate-200">
+  <img
+    src="/logo.png"
+    alt="ResuMate logo"
+    className="h-5 w-5 object-contain"
+  />
+</div>
+
             <span className="text-base font-semibold tracking-tight">ResuMate</span>
           </Link>
 
